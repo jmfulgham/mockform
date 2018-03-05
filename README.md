@@ -1,5 +1,7 @@
 # mockform
 Mock sign up form for hotel
+https://jmfulgham.github.io/mockform/
+
 
 This is a small project that has allowed me to play around with forms and CSS a little more.
 My goal here is to learn a little more about responsive layouts and forms. Also I used plain JavaScript to handle
