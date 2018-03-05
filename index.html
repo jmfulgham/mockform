@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!--  Meta  -->
+    <meta charset="UTF-8" />
+    <meta name="description" content="Mock Resort Sign Up Form">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <title>Sign Up</title>
+
+    <!--  Styles  -->
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+</head>
+
+<body>
+    <main role="main">
+        <div class="row">
+            <section class="col-6">
+                <section class="shadow list" id="card1">
+                    <h3>Enjoy the perks of membership</h3>
+                    <ul>
+                        <li>Private sale events </li>
+                        <li>Special booking discounts</li>
+                        <li>Special vacation packages</li>
+                    </ul>
+                </section>
+            </section>
+            <section class="col-6" id="card">
+
+                <section class="form">
+                    <form class="shadow white" action="save" id="form">
+                        <label>Join Us!</label>
+                        <p>Sign up today and receive 15% off your next stay over 2 nights!</p>
+                        <fieldset>
+                            First Name
+                            <br>
+                            <input type="text" id="name" required>
+                            <br> Email
+                            <Br>
+                            <input type="email" id="email" required>
+                            <br> Password
+                            <br>
+                            <input type="password" id="pw" required>
+                            <br>
+                            <input type="submit" onclick="handleForm()" value="Submit" class="button">
+                            <input type="reset" class="button">
+                        </fieldset>
+                    </form>
+                </section>
+            </section>
+
+
+        </div>
+
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>

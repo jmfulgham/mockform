@@ -1,0 +1,107 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    background-image: url('./Assets/beach.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.shadow {
+    -webkit-box-shadow: 0 6px 15px -6px black;
+    -moz-box-shadow: 0 6px 15px -6px black;
+    box-shadow: 0 6px 15px -6px black;
+}
+
+
+
+.white {
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+h3 {
+    color: white;
+    margin:5px;
+}
+
+#card1 {
+    background-color: rgb(70, 184, 193);
+    
+    padding:6px;
+}
+
+#card,
+#card1 {
+    display: inline-block;
+    
+    /* vertical-align: 50%; */
+}
+
+ul {
+    font-size: 22px;
+}
+
+li {
+    list-style-type: color rgb(70, 184, 193);
+}
+
+form,
+.list {
+    padding-top: 5%;
+    text-align: center;
+    width: 350px;
+    height: 450px;
+    /* margin: 0 auto; */
+    font-size: 40px;
+    /* position: relative; */
+    transform: translate(50%, 50%);
+    -ms-transform: translate(50%, 50%);
+    -webkit-transform: translate(50%, 50%);
+    border-radius: 5px;
+}
+
+label {
+    margin: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    font-size:15px;
+}
+
+p {
+    font-size: 20px;
+    margin: 10px;
+}
+
+input,
+.button {
+    font-size: 20px;
+    padding: 5px;
+    border: 1px solid rgb(70, 184, 193);
+    color: rgb(70, 184, 193);
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-bottom: 2px;
+    margin-top: 10px;
+}
+
+.button {
+    margin-top: 5px;
+    width: 40.5%;
+    margin: 15px;
+}
+
+.button:hover,
+.button:focus {
+    background-color: rgb(70, 184, 193);
+    color: white;
+    border: 2px solid white;
+}
