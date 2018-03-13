@@ -2,6 +2,10 @@
     font-family: 'Quicksand', sans-serif;
 }
 
+html, body, main, .row {
+  height: 100%
+}
+
 body {
     background-image: url('./Assets/beach.jpg');
     background-size: cover;
@@ -33,11 +37,15 @@ h3 {
     padding:6px;
 }
 
-#card,
-#card1 {
-    display: inline-block;
-    
-    /* vertical-align: 50%; */
+div {
+     display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+  justify-content: center;
+    align-items: center;
+   
 }
 
 ul {
@@ -45,7 +53,7 @@ ul {
 }
 
 li {
-    list-style-type: color rgb(70, 184, 193);
+    list-style-type: circle;
 }
 
 form,
@@ -54,12 +62,7 @@ form,
     text-align: center;
     width: 350px;
     height: 450px;
-    /* margin: 0 auto; */
     font-size: 40px;
-    /* position: relative; */
-    transform: translate(50%, 50%);
-    -ms-transform: translate(50%, 50%);
-    -webkit-transform: translate(50%, 50%);
     border-radius: 5px;
 }
 
@@ -97,6 +100,7 @@ input,
     margin-top: 5px;
     width: 40.5%;
     margin: 15px;
+  background-color: white;
 }
 
 .button:hover,
